@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 06:56:49 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6NDk6NDggw5ZTOzI2MTA="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6NTY6NDkgw5ZTOzE7MjcxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="t" expression="0"/>
+            <assign variable="i" expression="0"/>
+            <assign variable="metin" expression="number"/>
+            <do expression="say&#305; != 0">
+                <assign variable="basamak" expression="number % 10"/>
+                <assign variable="number" expression="numver- basamak"/>
+                <assign variable="number" expression="number / 10"/>
+                <assign variable="total" expression="total + basmak"/>
+                <assign variable="i" expression="i +1"/>
+            </do>
+            <if expression="t = toingeter">
+                <then>
+                    <output expression="amstrongnumber" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

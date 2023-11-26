@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 07:03:41 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6NTk6MTAgw5ZTOzI2MDA="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDc6MDM6NDEgw5ZTOzM7MjcwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="t" expression="0"/>
+            <for variable="i" start="1" end="number -1" direction="inc" step="1">
+                <if expression="number%i == 0">
+                    <then>
+                        <assign variable="t" expression="t+&#304;"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="say&#305; == topla">
+                <then>
+                    <output expression="perfectnumber" newline="True"/>
+                    <output expression="t = t + purfectnumber" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

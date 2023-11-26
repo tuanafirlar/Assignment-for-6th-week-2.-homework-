@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 08:21:50 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDg6MDI6NDggw5ZTOzI2MDE="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDg6MjE6NTAgw5ZTOzQ7MjcwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="sum" expression="0"/>
+            <assign variable="i" expression="101"/>
+            <do expression="i &lt; 30">
+                <if expression="i%9 == 0">
+                    <then>
+                        <assign variable="sum" expression="sum + i"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i +1"/>
+            </do>
+            <output expression="sum/of/numbers/divisible/by/9" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

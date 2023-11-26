@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 06:47:46 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6Mjg6MDQgw5ZTOzI1OTk="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6NDc6NDYgw5ZTOzU7MjcxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="i" expression="1"/>
+            <if expression="i = 100">
+                <then/>
+                <else>
+                    <assign variable="i" expression="i  + 1"/>
+                    <if expression="tam(i/2)*2= i">
+                        <then/>
+                        <else>
+                            <if expression="tam(i/3)*3= i">
+                                <then/>
+                                <else>
+                                    <if expression="tam(i/5)*5= i">
+                                        <then/>
+                                        <else>
+                                            <if expression="tam(i/7)*7= i">
+                                                <then/>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                    <assign variable="t" expression="t + i"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

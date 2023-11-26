@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 05:43:49 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDU6MzQ6NTIgw5ZTOzI1OTg="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDU6NDM6NDkgw5ZTOzE7MjcxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SE, LE, E, A" type="Integer" array="False" size=""/>
+            <assign variable="E" expression="( SE + LE ) * 2"/>
+            <assign variable="A" expression="SE * LE"/>
+            <output expression="E" newline="True"/>
+            <output expression="A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

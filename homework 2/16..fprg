@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 07:52:57 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDc6Mzg6NDMgw5ZTOzI2MDQ="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDc6NTI6NTcgw5ZTOzI7MjcxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="c" expression="1"/>
+            <assign variable="hormonicsum" expression="0"/>
+            <for variable="c" start="1" end="n" direction="inc" step="1">
+                <if expression="c == 1">
+                    <then>
+                        <assign variable="harmonicsum" expression="harmonic + c"/>
+                    </then>
+                    <else>
+                        <assign variable="harmonicsum" expression="harmonic + 1"/>
+                    </else>
+                </if>
+                <assign variable="c" expression="c+1"/>
+            </for>
+            <output expression="harmonizsum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 05:54:18 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDU6NDM6NTIgw5ZTOzI1OTg="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDU6NTQ6MTggw5ZTOzE7MjcxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="A"/>
+            <if expression="A = 0">
+                <then/>
+                <else>
+                    <input variable="B"/>
+                    <input variable="C"/>
+                    <assign variable="D" expression="B^2-4*A*C"/>
+                    <if expression="D&gt;=0">
+                        <then>
+                            <assign variable="X1" expression="(-b + D^1/2)/ 2*A"/>
+                            <assign variable="X2" expression="(-b + D^1/2)/ 2*A"/>
+                            <output expression="X1 &amp;&amp; X2" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

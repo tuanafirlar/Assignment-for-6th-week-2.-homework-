@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 07:10:29 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDc6MDQ6MDggw5ZTOzI1OTg="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDc6MDY6NDMgw5ZTOzE7UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6Mjg6MDQgw5ZTOzcuLmZwcmc7NjAwMg=="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDc6MTA6Mjkgw5ZTOzM7MjcwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <do expression="C&gt; N">
+                <input variable="N"/>
+                <if expression="N % C == 0">
+                    <then>
+                        <assign variable="b&#246;len" expression="b&#246;len + counter"/>
+                    </then>
+                    <else>
+                        <assign variable="C" expression="C +1"/>
+                    </else>
+                </if>
+            </do>
+            <if expression="b&#246;len &gt; N">
+                <then>
+                    <output expression="strong" newline="True"/>
+                </then>
+                <else>
+                    <output expression="deficent" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

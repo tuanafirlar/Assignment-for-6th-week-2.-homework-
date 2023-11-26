@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-26 06:26:31 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6MTI6MjYgw5ZTOzI1OTY="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6MTc6MDMgw5ZTOzE7UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6MDc6Mzkgw5ZTOzUzNjc="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMjY7MDY6MjY6MzEgw5ZTOzE7MjcwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, littlenumber" type="Integer" array="False" size=""/>
+            <if expression="a &gt; b">
+                <then>
+                    <assign variable="littlenumber" expression="b"/>
+                </then>
+                <else>
+                    <assign variable="littlenumber" expression="a"/>
+                </else>
+            </if>
+            <for variable="i" start="1" end="infinite " direction="inc" step="littlenumber +1 ">
+                <if expression="( a% i ==0 ) &amp;&amp;  ( b % i  == 0 )">
+                    <then>
+                        <assign variable="ebob" expression="i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="ekok = ( a+ b ) / ebob" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
